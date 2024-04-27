@@ -25,11 +25,11 @@ function Navbar() {
                       <a className="nav-link" aria-current="page" href="#">Home</a>
                       </li>
                       </NavLink>
-                      {/* <NavLink to="/AdminDashboard" style={{ textDecoration: 'none' }}> */}
+                      <NavLink to="/adminBoard" style={{ textDecoration: 'none' }}>
                       <li className="nav-item mx-3">
                       <a className="nav-link" href="#">Admin Dashboard</a>
                       </li>
-                      {/* </NavLink> */}
+                      </NavLink>
                       {/* <NavLink to="/whatWeDo" style={{ textDecoration: 'none' }}> */}
                       <li className="nav-item mx-3">
                       <a className="nav-link" href="#">What We Do?</a>
@@ -39,7 +39,7 @@ function Navbar() {
                           <li className="nav-item mx-3">
                             <a className="nav-link" href="#">Delivery Boy Login</a>
                           </li>
-                          </NavLink>
+                      </NavLink>
 
                   </ul>
               </div>

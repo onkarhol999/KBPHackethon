@@ -52,9 +52,9 @@ function homePage() {
                 </NavLink>
                 </div>
                 <div className="col-lg-6">
-                    {/* <NavLink to="/ShopCategory"> */}
-                    <button>Shop Now</button>
-                    {/* </NavLink> */}
+
+                     <button>Shop Now</button>
+=
                 </div>
             </div>
         </section>

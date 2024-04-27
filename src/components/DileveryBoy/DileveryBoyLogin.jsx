@@ -35,9 +35,9 @@ const LoginForm = () => {
             required
           />
         </div>
-    
+      <NavLink to="/dileveryBoard">
           <button className='loginBtn' type="submit">Login</button>
-        
+          </NavLink>
       </form>
     </div>
   );

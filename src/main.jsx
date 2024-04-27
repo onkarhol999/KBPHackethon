@@ -5,7 +5,8 @@ import Layout from "./Layout";
 import Home from './components/HomePage/HomePage'
 import DonationForm from './components/DonetForm/DonetForm'
 import DileveryBoy from './components/DileveryBoy/DileveryBoyLogin'
-
+import AdminDashboard from './components/AdminDashBoard/AdminDashboard'
+import DileveryBoard from './components/DeliveryDashBoard/DeliveryDashBoard'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -14,7 +15,8 @@ const router = createBrowserRouter(
     <Route path="Home" element={<Home/>}/>
     <Route path="donation" element={<DonationForm/>}/>
     <Route path="dileveryBoy" element={<DileveryBoy/>}/>
-
+    <Route path="adminBoard" element={<AdminDashboard/>}/>
+    <Route path="dileveryBoard" element={<DileveryBoard/>}/>
     </Route>
   )
 );
