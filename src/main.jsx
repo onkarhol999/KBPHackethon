@@ -1,15 +1,26 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import Navbar from '../src/components/Navbar/Navbar'
-// import HomePage from '../src/components/HomePage/HomePage'
-import DonationForm from '../src/components/DonetForm/DonetForm'
-import Footer from './components/Footer/Footer'
+import React from "react";
+import ReactDOM from "react-dom";
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import Layout from "./Layout";
+import Home from './components/HomePage/HomePage'
+import DonationForm from './components/DonetForm/DonetForm'
+import DileveryBoy from './components/DileveryBoy/DileveryBoyLogin'
+
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Layout/>}>
+    <Route path="" element={<Home/>}/>
+    <Route path="Home" element={<Home/>}/>
+    <Route path="donation" element={<DonationForm/>}/>
+    <Route path="dileveryBoy" element={<DileveryBoy/>}/>
+
+    </Route>
+  )
+);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-     <Navbar/>
-     {/* <HomePage/> */}
-     <DonationForm/>
-     <Footer/>
-  </React.StrictMode>,
+     <RouterProvider router={router}/>
+  </React.StrictMode>
 )

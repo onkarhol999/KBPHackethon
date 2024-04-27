@@ -5,7 +5,7 @@ import car2 from '../images/CarouselImages/Car2.jpg';
 import car3 from '../images/CarouselImages/Car3.jpg';
 import car4 from '../images/CarouselImages/Car4.jpg';
 import wflow from '../images/workflow.png';
-// import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function homePage() {
   return (
@@ -47,9 +47,9 @@ function homePage() {
             <h3>“Together, we can make a difference in the lives of individuals and families facing food insecurity, one donation at a time.”</h3>
             <div className="row">
                 <div className="col-lg-6">
-                    {/* <NavLink to="/donation"> */}
+               <NavLink to="/donation">
                     <button>Donate Food</button>
-                    {/* </NavLink> */}
+                </NavLink>
                 </div>
                 <div className="col-lg-6">
                     {/* <NavLink to="/ShopCategory"> */}
