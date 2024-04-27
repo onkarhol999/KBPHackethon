@@ -30,11 +30,11 @@ function Navbar() {
                       <a className="nav-link" href="#">Admin Dashboard</a>
                       </li>
                       </NavLink>
-                      {/* <NavLink to="/whatWeDo" style={{ textDecoration: 'none' }}> */}
+                      <NavLink to="/whatWeDo" style={{ textDecoration: 'none' }}>
                       <li className="nav-item mx-3">
                       <a className="nav-link" href="#">What We Do?</a>
                       </li>
-                      {/* </NavLink> */}
+                      </NavLink>
                       <NavLink to="/dileveryBoy" style={{ textDecoration: 'none' }}>
                           <li className="nav-item mx-3">
                             <a className="nav-link" href="#">Delivery Boy Login</a>

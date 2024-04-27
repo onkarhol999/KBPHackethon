@@ -7,6 +7,12 @@ import DonationForm from './components/DonetForm/DonetForm'
 import DileveryBoy from './components/DileveryBoy/DileveryBoyLogin'
 import AdminDashboard from './components/AdminDashBoard/AdminDashboard'
 import DileveryBoard from './components/DeliveryDashBoard/DeliveryDashBoard'
+import Shooping from './components/ShoppingCategory/ShoppingCategory'
+import Decorative from './components/ShoppingPages/Decorative'
+import EarthenPots from './components/ShoppingPages/EarthenPots'
+import Edible from './components/ShoppingPages/Edible'
+import Fashion from './components/ShoppingPages/Fashion'
+import WhatWeDo from './components/WhatWeDo/WhatWeDo'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +23,12 @@ const router = createBrowserRouter(
     <Route path="dileveryBoy" element={<DileveryBoy/>}/>
     <Route path="adminBoard" element={<AdminDashboard/>}/>
     <Route path="dileveryBoard" element={<DileveryBoard/>}/>
+    <Route path="shooping" element={<Shooping/>}/>
+    <Route path="decorative" element={<Decorative/>}/>
+    <Route path="earthenPots" element={<EarthenPots/>}/>
+    <Route path="edible" element={<Edible/>}/>
+    <Route path="fashion" element={<Fashion/>}/>
+    <Route path="whatWeDo" element={<WhatWeDo/>}/>
     </Route>
   )
 );

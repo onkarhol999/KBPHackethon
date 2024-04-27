@@ -52,9 +52,9 @@ function homePage() {
                 </NavLink>
                 </div>
                 <div className="col-lg-6">
-
+                  <NavLink to="/shooping">
                      <button>Shop Now</button>
-=
+                     </NavLink>
                 </div>
             </div>
         </section>
